@@ -1,0 +1,7 @@
+pip
+selenium
+bs4
+pandas
+lxml
+pyyaml
+html5lib

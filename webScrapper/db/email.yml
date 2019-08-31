@@ -1,0 +1,9 @@
+---
+username: scrape@triconbox.com
+password: Scrape123
+smtpServer: mail.triconbox.com
+smtpPort: 587
+receiver: hassanejaz22@gmail.com
+ccContact: hassanejaz22@gmail.com
+subject: Data Scrapping Report
+body: Data report has been successfully generated
