@@ -22,8 +22,7 @@ def get_email(email):
     return email.strip()
 
 class Email(object):
-    def __init__(self, from_, to, subject, message, message_type='plain',
-                 attachments=None, cc=None, message_encoding='us-ascii'):
+    def __init__(self, from_, to, subject, message, message_type='plain', attachments=None, cc=None, message_encoding='us-ascii'):
         self.email = MIMEMultipart()
         self.email['From'] = from_
         self.email['To'] = to
@@ -41,8 +40,7 @@ class Email(object):
                 attachment.set_payload(fp.read())
                 fp.close()
                 encode_base64(attachment)
-                attachment.add_header('Content-Disposition', 'attachment',
-                                      filename=os.path.basename(filename))
+                attachment.add_header('Content-Disposition', 'attachment', filename=os.path.basename(filename))
                 self.email.attach(attachment)
 
     def __str__(self):

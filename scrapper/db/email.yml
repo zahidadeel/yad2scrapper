@@ -1,0 +1,9 @@
+---
+username: zahidadeelhashmat@gmail.com
+password: ""
+smtpServer: mail.gmail.com
+smtpPort: 587
+receiver: zahidadeelhashmat@gmail.com
+ccContact: someone@someone.com
+subject: Data Scrapping Report
+body: Data report has been successfully generated

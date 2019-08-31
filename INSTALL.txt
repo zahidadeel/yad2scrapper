@@ -1,5 +1,0 @@
- 
-Please run install.sh script on your server like this:
-    bash install.sh
-
-afterwards ,try to use script for a single residential or commercial page.

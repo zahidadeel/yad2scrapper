@@ -1,11 +1,11 @@
-from email_utils import *
+from .emailUtils import *
 import yaml
 
 emailConf = './db/email.yml'
 emailData = None
 
 with open(emailConf, 'r') as f:
-    emailData = yaml.load(f)
+    emailData = yaml.load(f, Loader=yaml.FullLoader)
 
 if not emailData:
     print("Email configuration seems corrupted")

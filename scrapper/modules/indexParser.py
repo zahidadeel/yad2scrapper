@@ -4,8 +4,8 @@ import sys
 from bs4 import BeautifulSoup
 import re
 import logging
-from renderHtml import downloadHtml
-from detailsParser import scrapDetailsData
+from .renderHtml import downloadHtml
+from .detailsParser import scrapDetailsData
 import json
 from datetime import datetime
 import time

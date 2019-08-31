@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import logging
 
-from renderHtml import downloadHtml
+from .renderHtml import downloadHtml
 
 
 LOG_FILENAME = 'webScrapper.log'

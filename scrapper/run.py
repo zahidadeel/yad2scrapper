@@ -1,10 +1,10 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
-from .indexParser import *
-from .reportMaker import *
+from modules.indexParser import *
+from modules.reportMaker import *
 from argparse import ArgumentParser
 from datetime import datetime
-from sendEmail import sendEmail
+from modules.sendEmail import sendEmail
 import os
 import time
 import re
