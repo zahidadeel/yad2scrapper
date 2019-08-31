@@ -1,4 +1,4 @@
-# yad2scrapper
+# Yad2scrapper
 Real Estate Scrapper for scrapping data from YAD2 site (yad2.co.il).
 
 # How to use it:
@@ -32,3 +32,8 @@ Main scrapper script is run.py which can be executed to scrap data from YAD2 for
 * Proxies support: Scrapper can use http proxies from `./db/proxies.txt` file which can be used
 * Email support: Scrapped reports will be sent to configured email IDs. Email relevant configuration is available under `./db/email.yml`
 * HTTP requests delay: `run.py -t` can be used for putting some delay between requests
+
+## Sample Output:
+I have included a sample csv output which contains a scrapped report.
+
+[Download Sample Report here](./sample-output/sampleOutput-1-100-then-200-381.csv)
